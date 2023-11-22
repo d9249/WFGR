@@ -16,22 +16,26 @@ The experiments in this paper are based on <b>[RecBole-GNN](https://github.com/R
 If you utilize this repository, models or data in a downstream project, please consider citing it with:
 
 ```bash
-@misc{WTGF,
-  author = {Sangmin Lee},
+@misc{ideal2023WTGR,
+  author = {Sangmin Lee, Namgi Kim},
   title = {Weighted Forwarding in Graph convolution networks for Recommendation},
   year = {2023},
   publisher = {},
   journal = {},
   howpublished = {\url{https://github.com/d9249/WFGR}},
 }
+```
 
+```bash
 @inproceedings{zhao2022recbole2,
   author={Wayne Xin Zhao and Yupeng Hou and Xingyu Pan and Chen Yang and Zeyu Zhang and Zihan Lin and Jingsen Zhang and Shuqing Bian and Jiakai Tang and Wenqi Sun and Yushuo Chen and Lanling Xu and Gaowei Zhang and Zhen Tian and Changxin Tian and Shanlei Mu and Xinyan Fan and Xu Chen and Ji-Rong Wen},
   title={RecBole 2.0: Towards a More Up-to-Date Recommendation Library},
   booktitle = {{CIKM}},
   year={2022}
 }
+```
 
+```bash
 @inproceedings{zhao2021recbole,
   author    = {Wayne Xin Zhao and Shanlei Mu and Yupeng Hou and Zihan Lin and Yushuo Chen and Xingyu Pan and Kaiyuan Li and Yujie Lu and Hui Wang and Changxin Tian and  Yingqian Min and Zhichao Feng and Xinyan Fan and Xu Chen and Pengfei Wang and Wendi Ji and Yaliang Li and Xiaoling Wang and Ji{-}Rong Wen},
   title     = {RecBole: Towards a Unified, Comprehensive and Efficient Framework for Recommendation Algorithms},
