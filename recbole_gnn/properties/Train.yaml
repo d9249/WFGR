@@ -1,0 +1,33 @@
+gpu_id: '0'
+worker: 0
+use_gpu: True
+seed: 42
+state: INFO
+data_path: './dataset/'
+checkpoint_dir: './saved/'
+show_progress: True
+log_wandb: True
+wandb_project: 'WFGR'
+
+field_separator: "\t"
+seq_separator: " "
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+NEG_PREFIX: neg_
+LABEL_FIELD: label
+load_col:
+    inter: [user_id, item_id, rating]
+val_interval:
+    rating: "[3,inf)"
+unused_col: 
+    inter: [rating]
+eval_args:
+    split: {'RS':[0.8,0.1,0.1]}
+    order: RO
+    mode: full
+
+epochs: 500
+train_batch_size: 16384
+valid_metric: MRR@20
+eval_batch_size: 4096000

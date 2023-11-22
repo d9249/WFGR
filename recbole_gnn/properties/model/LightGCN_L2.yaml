@@ -1,0 +1,9 @@
+# embedding_size: 64
+# n_layers: 3
+# reg_weight: 1e-05
+# require_pow: True
+
+embedding_size: 64
+learning_rate: 0.002
+n_layers: 2
+reg_weight: 0.0001

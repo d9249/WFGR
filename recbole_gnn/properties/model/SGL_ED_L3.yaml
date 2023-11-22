@@ -1,0 +1,17 @@
+# type: "ED"
+# n_layers: 2
+# ssl_tau: 0.5
+# reg_weight: 1e-5
+# ssl_weight: 0.05
+# drop_ratio: 0.1
+# embedding_size: 64
+
+# SGL
+type: "ED"
+learning_rate: 0.002
+n_layers: 3
+reg_weight: 0.0001
+ssl_tau: 0.5
+drop_ratio: 0.1
+ssl_weight: 0.005
+embedding_size: 64

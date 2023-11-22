@@ -1,0 +1,11 @@
+.DS_Store
+log/
+log_tensorboard/
+__pycache__/
+__init__/
+saved/
+*.out
+*.pyc
+wandb/
+.ipynb_checkpoints/
+dataset/ml-10m/
