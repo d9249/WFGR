@@ -9,7 +9,7 @@ The experiments in this paper are based on <b>[RecBole-GNN](https://github.com/R
 
 # Suggested course improvements
 
-![image](./docs/paper%20figure/figure2.png)
+![image](./image/Structure_Diagram.png)
 
 ### Citation
 
