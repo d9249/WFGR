@@ -2,6 +2,7 @@
 
 Title: Weighted Forwarding in Graph convolution networks for Recommendation
 
+Paper: https://doi.org/10.32604/cmc.2023.046346 <br>
 Train Log(Wandb): https://wandb.ai/d9249/WFGR <br>
 Docker hub: https://hub.docker.com/repository/docker/dodo9249/wtgf <br>
 Dataset(Google Drive): https://drive.google.com/drive/folders/11zFVhE0tM0HKnKJZ-YvptjOBYC3Ok5g3?usp=sharing <br>
@@ -19,9 +20,8 @@ If you utilize this repository, models or data in a downstream project, please c
 @misc{ideal2023WTGR,
   author = {Sangmin Lee, Namgi Kim},
   title = {Weighted Forwarding in Graph convolution networks for Recommendation},
-  year = {2023},
-  publisher = {},
-  journal = {},
+  year = {2024},
+  publisher = {CMC},
   howpublished = {\url{https://github.com/d9249/WFGR}},
 }
 ```
